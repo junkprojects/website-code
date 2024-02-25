@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+   
+     
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junk Projects</title>
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+    <p class="nes-balloon from-left nes-pointer">
+    <img src="/Users/junofullerton/Desktop/Screenshot 2024-02-24 at 6.45.38 PM.png" alt="Junk Projects" />
+
+    <nav style='padding: 20px; border-bottom:3px solid #ccc; 
+    margin-bottom: 60px;'>
+
+    <h2>Junk Projects</h2>
+    </nav>
+
+
+    <label>
+        <input type="radio" class="nes-radio" name="answer" checked />
+        <span>Yes</span>
+      </label>
+      
+      <label>
+        <input type="radio" class="nes-radio" name="answer" />
+        <span>No</span>
+      </label>
+      
+      <div style="background-color:#212529; padding: 1rem 0;">
+        <label>
+          <input type="radio" class="nes-radio is-dark" name="answer-dark" checked />
+          <span>Yes</span>
+        </label>
+      
+        <label>
+          <input type="radio" class="nes-radio is-dark" name="answer-dark" />
+          <span>No</span>
+        </label>
+      </div>
+
+      <div class="nes-container with-title is-centered">
+        <p class="title">Customs</p>
+        <p>Welcome To Junk Projects. Order a custom garment here!!</p>
+      </div>
+
+
+
+      <div class="nes-table-responsive">
+        <table class="nes-table is-bordered is-centered">
+          <thead>
+            <tr>                                Made to Order
+              <th>Tops</th>
+              <th>Bottoms</th>
+              <th>Innerwear</th>
+              <th>Outerwear</th>
+              <th>Accessories</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Thou hast had a good morning</td>
+              <td>Thou hast had a good afternoon</td>
+              <td>Thou hast had a good evening</td>
+              <td>Thou hast had a good night</td>
+            </tr>
+            <tr>
+              <td>Thou hast had a good morning</td>
+              <td>Thou hast had a good afternoon</td>
+              <td>Thou hast had a good evening</td>
+              <td>Thou hast had a good night</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    
+    </body>
+</p>
+</html>
