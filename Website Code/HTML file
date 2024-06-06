@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World</title>
+  <link rel="stylesheet" href="https://unpkg.com/nes.css/css/nes.min.css">
+  <link rel="stylesheet" href="junkprojects.css">
+
+</head>
+<body>
+    <div class="typing-container">
+      <p id="typing-text" class="typing kongtext"></p>
+    </div>
+ 
+ 
+	
+	 <div class="footer">
+		 <button type="button" class="nes-btn is-primary">Shop</button>
+    <button class="nes-btn is-success" id="myButton">Play Snake!</button>
+</div>
+	
+  <script src="junkprojects.js"></script>
+	
+
+	
+	
+</body>
+</html>
+

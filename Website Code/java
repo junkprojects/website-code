@@ -1,0 +1,33 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const text = "Hello World. \n Welcome to Junk Projects.\n  The year is 2024. \n Fast fashion is growing at a rate of 2.7% yearly. \n 70,000,000 garments workers, 80% of whom are women of color, \n work in unsustainable conditions without a living wage. \n Fast fashion accounts for 10% of global pollution, more C02 \n than the aviation and shipping industries combined.\n Americans buy more fast fashion products \n than any country in the world. \n 20% of chemical wastewater that destroys habitats is \n from textile dyeing \n 500,000 tons of microplastics are produced every year. \n 92,000,000 tons of clothing waste is produced  each year \n ";
+  const typingText = document.getElementById("typing-text");
+  typingText.innerText = ""; // Clear the text initially
+
+  let index = 0;
+  const typingSpeed = 50; // Adjust typing speed here
+  let typingTimeout;
+
+  function typeWriter() {
+    if (index < text.length) {
+      typingText.innerHTML += text.charAt(index);
+      if (text.charAt(index) === "\n") {
+        typingText.innerHTML += "<br>"; // Add line break
+      }
+      index++;
+      typingTimeout = setTimeout(typeWriter, typingSpeed);
+    }
+  }
+
+  function handleKeyPress(event) {
+    if (event.key === "Enter") {
+      clearTimeout(typingTimeout);
+      while (index < text.length && text.charAt(index) !== "\n") {
+        typingText.innerHTML += text.charAt(index);
+        index++;
+      }
+    }
+  }
+
+  typeWriter();
+  document.addEventListener("keypress", handleKeyPress);
+});
